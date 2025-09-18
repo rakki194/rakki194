@@ -5,10 +5,9 @@ H҉̷̡͇̮̩͔̀̄͠ͅ⎔̴̡͔̦͇͇̋͌t̷̸̲̟̻̽͂͠ͅh̷̶̖̫͎̆̓̚͜
 ◯̴̛̖̠̖͖͑̓  Á̵̻̱͇̟̋̓b̷̘̣̀͒̚͝o̸̖̾̓͠͝ů̴̹̰̘͌̓t  M̶̲̓̔͠è̷̛̜̤͌ͅ  ◯̵̛̍̋̕
 
 * I design frameworks, security tools, and diffusion utilities with a strong emphasis on privacy, reproducibility, and type safety.
-  My work spans Reynard, a modular SolidJS framework, to hardened forks of ComfyUI that remove telemetry and lock-ins, to advanced
-  sigma scheduling and probing utilities.
-  I value deterministic systems, reproducibility, and making tools auditable, forkable, and offline-friendly.
-* P̷̛͙̿́r̶̦̽͗ơ̴̤͌̽j̴̫̾̚e̵̛̼͊c̶̨͍͜t̶̳̿s̷̮̽  I shepherd: Reynard (framework), utility forks & nodes for ComfyUI, and surgical custom nodes.
+* My work spans Reynard, a modular SolidJS framework, to hardened forks of ComfyUI that remove telemetry and lock-ins, to advanced sigma scheduling and probing utilities.
+* I value deterministic systems, reproducibility, and making tools auditable, forkable, and offline-friendly.
+* P̷̛͙̿́r̶̦̽͗ơ̴̤͌̽j̴̫̾̚e̵̛̼͊c̶̨͍͜t̶̳̿s̷̮̽  I shepherd: Reynard (framework), forks & nodes for ComfyUI, and surgical custom nodes.
 
 ⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲
 
@@ -91,15 +90,8 @@ I̷̺̋̽n̶̗̾̕v̶̹̯̕e̵̙̽s҉̛̞̳̘̱t̶̪̺͊i̷̺̋̽g̵̰̀a̶̭̐t
 - ★ Ｓ̷̮̽ＶＤ̴̖̍ ｍ̴̬̣̏̕ａ̶̭̐ｎ̶̗̾̕ｉ̷̺̋̽ｐ̷̛͙̿́ｕ̸̖̓ｌ̵̛̩͉̐͝ａ̶̭̐ｔ̶̪̺͊ｉ̷̺̋̽ｏ̴̪̝̽ｎ̶̗̾̕ ｏ̴̪̝̽ｆ̴̢̀͒ model activation layers for interpretability
 - ★ Ａ̶̭̐ｄ̴̖̍ｖ̵̙̽ｅ̵̙̽ｒ̸̹̈́ｓ҉̛̞̳̘̱ａ̶̭̐ｒ̸̹̈́ｉ̷̺̋̽ａ̶̭̐ｌ̵̛̩͉̐͝ ｒ̸̹̈́ｏ̴̪̝̽ｂ̴̰͓̿̄ｕ̸̖̓ｓ҉̛̞̳̘̱ｔ̶̪̺͊ｎ̶̗̾̕ｅ̵̙̽ｓ҉̛̞̳̘̱ｓ҉̛̞̳̘̱ in sampling workflows
 
-🧭 P̷̛͙̿́e̵̙̽r̸̹̈́s҉̛̞̳̘̱o̴̪̝̽n̶̗̾̕a̶̭̐l̵̛̩͉̐͝ ｎ̶̗̾̕ｏ̴̪̝̽ｔ̶̪̺͊ｅ̵̙̽ｓ҉̛̞̳̘̱
-
-- I favor deterministic, inspectable systems. Libraries must fail loudly and be easy to audit.
-- I build with the expectation that other engineers will fork and re-use — APIs must be explicit, types must be strict.
-- If you want privacy, offline-first setups, or secure RAG demos, Reynard + the privacy-first ComfyUI forks are my opinionated stack.
-
 🔗 Q̶̟̈́̽ů̶̖́͠i̷̺̋̽c̶̢̟̏k̵̝̀͗͠ l̵̛̩͉̐͝i̷̺̋̽n̶̗̾̕k̵̝̀͗͠s҉̛̞̳̘̱
 
-- **GitHub**: [https://github.com/rakki194](https://github.com/rakki194)
 - **Reynard Framework**: [https://github.com/rakki194/reynard](https://github.com/rakki194/reynard)
 - **ComfyUI Wolf Sigmas**: [https://github.com/rakki194/ComfyUI_WolfSigmas](https://github.com/rakki194/ComfyUI_WolfSigmas)
 - **ComfyUI ImageCompare**: [https://github.com/rakki194/ComfyUI-ImageCompare](https://github.com/rakki194/ComfyUI-ImageCompare)
