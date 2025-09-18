@@ -6,7 +6,7 @@ H҉̷̡͇̮̩͔̀̄͠ͅ⎔̴̡͔̦͇͇̋͌t̷̸̲̟̻̽͂͠ͅh̷̶̖̫͎̆̓̚͜
 
 * H̴͉̙̿̂i — I'm @rakki194. I design infrastructure-first frontends and modular frameworks with a focus on privacy, reproducibility, and pragmatic ergonomics.
 * P̷̛͙̿́r̶̦̽͗ơ̴̤͌̽j̴̫̾̚e̵̛̼͊c̶̨͍͜t̶̳̿s̷̮̽ I shepherd: Reynard (framework), utility forks & nodes for ComfyUI, and surgical custom nodes.
-* 
+
 ⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲
 
 🦊  R̸͎̅ẹ̵̢̀ỹ̸̰̠ǹ̴̜a̴̘̓͜r̶̞̊d̴̖̍ 
