@@ -50,7 +50,6 @@ W̶͐͛͜h̷̶̖̫͎̆̓̚͜͝a̶̭̐t̵̰̾̕ I҉̬̲̍ c̶̢̟̏h̷̶̖̫͎̆�
 - Telemetry removed (no remote usage pings, no datadog/analytics hooks)
 - Paid API code paths removed or stubbed (no forced cloud billing flows)  
 - User-account/login bits removed or made opt-in; default: local / offline mode
-- Small upstream contributions: custom nodes (ComfyUI-ImageCompare) to improve local workflow QA
 
 W̶͐͛͜h̷̶̖̫͎̆̓̚͜͝y̸̬̓҉ t̶̪̺͊h̷̶̖̫͎̆̓̚͜͝i̷̺̋̽s҉̛̞̳̘̱ m̴̬̣̏̕a̶̭̐t̵̰̾̕t̶̪̺͊e̵̙̽r̸̹̈́s҉̛̞̳̘̱:
 - Reproducible offline runs, honest offline research, smaller attack surface, simpler setup for hobbyists & labs.
