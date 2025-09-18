@@ -5,8 +5,10 @@ H҉̷̡͇̮̩͔̀̄͠ͅ⎔̴̡͔̦͇͇̋͌t̷̸̲̟̻̽͂͠ͅh̷̶̖̫͎̆̓̚͜
 
 ◯̴̛̖̠̖͖͑̓  Á̵̻̱͇̟̋̓b̷̘̣̀͒̚͝o̸̖̾̓͠͝ů̴̹̰̘͌̓t  M̶̲̓̔͠è̷̛̜̤͌ͅ  ◯̵̛̍̋̕
 
-* I design frameworks, security tools, and diffusion utilities with a strong emphasis on privacy, reproducibility, and type safety.
-* My work spans Reynard, a modular SolidJS framework, to hardened forks of ComfyUI that remove telemetry and lock-ins, to advanced sigma scheduling and probing utilities.
+* I design frameworks, security tools, and diffusion utilities with a strong emphasis on privacy, reproducibility,
+  and type safety.
+* My work spans Reynard, a modular SolidJS framework, to hardened forks of ComfyUI that remove telemetry and lock-ins,
+  to advanced sigma scheduling and probing utilities.
 * I value deterministic systems, reproducibility, and making tools auditable, forkable, and offline-friendly.
 * P̷̛͙̿́r̶̦̽͗ơ̴̤͌̽j̴̫̾̚e̵̛̼͊c̶̨͍͜t̶̳̿s̷̮̽  I shepherd: Reynard (framework), forks & nodes for ComfyUI, and surgical custom nodes.
 
