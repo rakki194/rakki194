@@ -180,6 +180,7 @@ I̷̺̋̽n̶̗̾̕v̶̹̯̕e̵̙̽s҉̛̞̳̘̱t̶̪̺͊i̷̺̋̽g̵̰̀a̶̭̐t
 - ★ Ａ̶̭̐ｄ̴̖̍ｖ̵̙̽ｅ̵̙̽ｒ̸̹̈́ｓ҉̛̞̳̘̱ａ̶̭̐ｒ̸̹̈́ｉ̷̺̋̽ａ̶̭̐ｌ̵̛̩͉̐͝ ｒ̸̹̈́ｏ̴̪̝̽ｂ̴̰͓̿̄ｕ̸̖̓ｓ҉̛̞̳̘̱ｔ̶̪̺͊ｎ̶̗̾̕ｅ̵̙̽ｓ҉̛̞̳̘̱ｓ҉̛̞̳̘̱ in sampling workflows
 
 🔗 Q̶̟̈́̽ů̶̖́͠i̷̺̋̽c̶̢̟̏k̵̝̀͗͠ l̵̛̩͉̐͝i̷̺̋̽n̶̗̾̕k̵̝̀͗͠s҉̛̞̳̘̱
+```
 
 - **Reynard Framework**: [https://github.com/rakki194/reynard](https://github.com/rakki194/reynard)
 - **ComfyUI Wolf Sigmas**: [https://github.com/rakki194/ComfyUI_WolfSigmas](https://github.com/rakki194/ComfyUI_WolfSigmas)
@@ -188,4 +189,3 @@ I̷̺̋̽n̶̗̾̕v̶̹̯̕e̵̙̽s҉̛̞̳̘̱t̶̪̺͊i̷̺̋̽g̵̰̀a̶̭̐t
 - **ComfyUI Frontend Fork**: [https://github.com/rakki194/ComfyUI_frontend](https://github.com/rakki194/ComfyUI_frontend)
 
 ---
-```
