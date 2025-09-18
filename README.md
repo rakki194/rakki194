@@ -19,9 +19,12 @@ W̶͐͛͜h̷̶̖̫͎̆̓̚͜͝a̶̭̐t̵̰̾̕ R̸͎̅ẹ̵̢̀ỹ̸̰̠ǹ̴̜a�
   • Security testing harness: FENRIR integration for automated exploit sweeps (web + LLM threat vectors).
 
 I҉̬̲̍n̷̮͎̾s̴̖̽̚ẗ̴̝́ă̵͚̇l̶̻̅̅l̸̮͍̊ / b̸̩̑̉o̴̢̬͝o̸͚̔t̶̹̯͊s̶̹̳̿t̴̜̑r̸̹̈́a̶̛͖p̶̝̓:
-  pnpm install reynard-core solid-js
-  pnpm install reynard-components reynard-chat reynard-rag reynard-auth
-  pnpm create reynard-app my-app
+
+```bash
+pnpm install reynard-core solid-js
+pnpm install reynard-components reynard-chat reynard-rag reynard-auth
+pnpm create reynard-app my-app
+```
 
 ⌘⌘⌘⌘⌘⌘⌘⌘⌘⌘⌘⌘⌘⌘⌘⌘⌘⌘⌘⌘⌘⌘⌘⌘⌘⌘⌘⌘⌘⌘⌘⌘⌘
 
