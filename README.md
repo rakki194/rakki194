@@ -2,7 +2,7 @@ H҉̷̡͇̮̩͔̀̄͠ͅ⎔̴̡͔̦͇͇̋͌t̷̸̲̟̻̽͂͠ͅh̷̶̖̫͎̆̓̚͜
 ⌇⌇⌇⌇⌇⌇⌇⌇⌇⌇⌇⌇⌇⌇⌇⌇⌇⌇⌇⌇⌇⌇⌇⌇⌇⌇⌇⌇⌇⌇⌇⌇⌇⌇⌇⌇
 ◯̴̛̖̠̖͖͑̓  Á̵̻̱͇̟̋̓b̷̘̣̀͒̚͝o̸̖̾̓͠͝ů̴̹̰̘͌̓t  M̶̲̓̔͠è̷̛̜̤͌ͅ  ◯̵̛̍̋̕
 * H̴͉̙̿̂i — I'm @rakki194. I design infrastructure-first frontends and modular frameworks with a focus on privacy, reproducibility, and pragmatic ergonomics.
-* P̷̛͙̿́r̶̦̽͗ơ̴̤͌̽j̴̫̾̚e̵̛̼͊c̶̨͍͜t̶̳̿s̷̮̽ I shepherd: Reynard (framework), utility forks & nodes for ComfyUI, and small, surgical custom nodes (see image-compare node).
+* P̷̛͙̿́r̶̦̽͗ơ̴̤͌̽j̴̫̾̚e̵̛̼͊c̶̨͍͜t̶̳̿s̷̮̽ I shepherd: Reynard (framework), utility forks & nodes for ComfyUI, and surgical custom nodes.
 ⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲
 
 🦊  R̸͎̅ẹ̵̢̀ỹ̸̰̠ǹ̴̜a̴̘̓͜r̶̞̊d̴̖̍ 
@@ -12,12 +12,12 @@ W̵̢̲̼̍͘̚h҉̷͉̙̿̂y̸̬̓҉ I b̴̰͓̿̄ů̶̖́͠i̴̠̐̍l̵̛̩͉
 - Goal: ship composable, type-safe UI primitives that scale from a toy dashboard to production pipelines.
 - Principles: minimal deps, TypeScript-first, OKLCH color system, strong i18n & accessibility posture.
 
-W̶͐͛͜h̷̶̖̫͎̆̓̚͜͝a̶̭̐t̵̰̾̕ R̸͎̅ẹ̵̢̀ỹ̸̰̠ǹ̴̜a̴̘̓͜r̶̞̊d̴̖̍ *is* (short):
+W̶͐͛͜h̷̶̖̫͎̆̓̚͜͝a̶̭̐t̵̰̾̕ R̸͎̅ẹ̵̢̀ỹ̸̰̠ǹ̴̜a̴̘̓͜r̶̞̊d̴̖̍ *is*:
   • SolidJS framework + package ecosystem (core, components, themes, ecs-world, i18n, chat, rag, auth, charts, gallery, annotating, captioning, monaco integration, testing tools).
   • Single authoritative ECS world for agent simulations and MCP server integration where needed.
   • Security testing harness: FENRIR integration for automated exploit sweeps (web + LLM threat vectors).
 
-I҉̬̲̍n̷̮͎̾s̴̖̽̚ẗ̴̝́ă̵͚̇l̶̻̅̅l̸̮͍̊ / b̸̩̑̉o̴̢̬͝o̸͚̔t̶̹̯͊s̶̹̳̿t̴̜̑r̸̹̈́a̶̛͖p̶̝̓ (real snippet):
+I҉̬̲̍n̷̮͎̾s̴̖̽̚ẗ̴̝́ă̵͚̇l̶̻̅̅l̸̮͍̊ / b̸̩̑̉o̴̢̬͝o̸͚̔t̶̹̯͊s̶̹̳̿t̴̜̑r̸̹̈́a̶̛͖p̶̝̓:
   pnpm install reynard-core solid-js
   pnpm install reynard-components reynard-chat reynard-rag reynard-auth
   pnpm create reynard-app my-app
@@ -36,7 +36,7 @@ T̵̻͠i̶̻̅n̸̖̗̍y̶͎͗ e̵̙̽x̵̤̺̄a̶̱͂m̴̬̣̏̕p̶̺͒͝l̷̩�
     );
   }
 
-K̵̝̀͗͠e̸̷̻̔̏͠y̸̬̓҉, p̴̺͗r̵̭̐̚a̶̭̐c̶̢̟̏t̸̪̓i̷̺̋̽c̶̣̄̿a̶̱͂l̵̛̩͉̐͝ f̴̢̀͒e̵̙̽a̶̭̐t̵̰̾̕ů̶̖́͠r̸̹̈́e̵̙̽s̶̹̳̿ (dense):
+K̵̝̀͗͠e̸̷̻̔̏͠y̸̬̓҉, p̴̺͗r̵̭̐̚a̶̭̐c̶̢̟̏t̸̪̓i̷̺̋̽c̶̣̄̿a̶̱͂l̵̛̩͉̐͝ f̴̢̀͒e̵̙̽a̶̭̐t̵̰̾̕ů̶̖́͠r̸̹̈́e̵̙̽s̶̹̳̿:
   • Multi-modal content types: images, audio, video, docs, custom formats
   • RAG + embedding helpers (EmbeddingGemma integration)
   • Chat streaming + tool hooks (reynard-chat)
@@ -62,7 +62,7 @@ D҉̮̾o̶͔͝c̶̛͖s̵̲̑ & d̵̲͑ȩ̷̟̽v̵̜̙͑ e̵̛̼͊r̶̦̽͗g̶̳�
 M̶̲̓̔͠y̸̬̓҉ i̸̖̓n̶̗̾̕t̶̪̺͊e̵̙̽n̶̗̾̕t̶̪̺͊:
 - Keep the UX & node model intact, remove external tracking, remove lock-in.
 
-W̶͐͛͜h̷̶̖̫͎̆̓̚͜͝a̶̭̐t̵̰̾̕ I҉̬̲̍ c̶̢̟̏h̷̶̖̫͎̆̓̚͜͝a̶̭̐n̶̗̾̕g̵̰̀e̵̙̽d̴̖̍ (surgical list):
+W̶͐͛͜h̷̶̖̫͎̆̓̚͜͝a̶̭̐t̵̰̾̕ I҉̬̲̍ c̶̢̟̏h̷̶̖̫͎̆̓̚͜͝a̶̭̐n̶̗̾̕g̵̰̀e̵̙̽d̴̖̍:
 - Telemetry removed (no remote usage pings, no datadog/analytics hooks)
 - Paid API code paths removed or stubbed (no forced cloud billing flows)
 - User-account/login bits removed or made opt-in; default: local / offline mode
@@ -71,11 +71,6 @@ W̶͐͛͜h̷̶̖̫͎̆̓̚͜͝a̶̭̐t̵̰̾̕ I҉̬̲̍ c̶̢̟̏h̷̶̖̫͎̆�
 W̶͐͛͜h̷̶̖̫͎̆̓̚͜͝y̸̬̓҉ t̶̪̺͊h̷̶̖̫͎̆̓̚͜͝i̷̺̋̽s҉̛̞̳̘̱ m̴̬̣̏̕a̶̭̐t̵̰̾̕t̶̪̺͊e̵̙̽r̸̹̈́s҉̛̞̳̘̱:
 - Reproducible offline runs, honest offline research, smaller attack surface, simpler setup for hobbyists & labs.
 
-H̴͉̙̿̂o̴̪̝̽w̸̛͎͉ t̶̪̺͊o̴̪̝̽ r̸̹̈́ů̶̖́͠n̶̗̾̕ l̵̛̩͉̐͝o̴̪̝̽c̶̢̟̏a̶̭̐l̵̛̩͉̐͝l̵̛̩͉̐͝y̸̬̓҉ (ComfyUI forked workflow, short):
-  git clone <your-fork>
-  python -m venv .venv && .venv/bin/pip install -r requirements.txt
-  python main.py --no-telemetry
-  (frontend: run packaged frontend or point a custom web client at the local API)
 ⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲
 
 🔒 S҉̥e̵̙̽c̶̢̟̏ů̶̖́͠r̸̹̈́i̷̺̋̽t̶̪̺͊y̸̬̓҉, t̶̪̺͊e̵̙̽s҉̛̞̳̘̱t̶̪̺͊i̷̺̋̽n̶̗̾̕g̵̰̀, a̶̭̐n̶̗̾̕d̴̖̍ s҉̛̞̳̘̱t̶̪̺͊r̸̹̈́e̵̙̽s҉̛̞̳̘̱s҉̛̞̳̘̱
@@ -84,7 +79,7 @@ python -m fenrir.run\_all\_exploits --target [http://localhost:8000](http://loca
 - Focus areas: prompt injection, streaming exploit resilience, unicode confusables, auth hardening.
 - Threat model: untrusted file inputs, LLM chain-of-thought leakage, dependency supply chain.
 
-🧭 P̷̛͙̿́e̵̙̽r̸̹̈́s҉̛̞̳̘̱o̴̪̝̽n̶̗̾̕a̶̭̐l̵̛̩͉̐͝ n̶̗̾̕o̴̪̝̽t̶̪̺͊e̵̙̽s҉̛̞̳̘̱ (why I do this)
+🧭 P̷̛͙̿́e̵̙̽r̸̹̈́s҉̛̞̳̘̱o̴̪̝̽n̶̗̾̕a̶̭̐l̵̛̩͉̐͝ n̶̗̾̕o̴̪̝̽t̶̪̺͊e̵̙̽s҉̛̞̳̘̱
 - I favor deterministic, inspectable systems. Libraries must fail loudly and be easy to audit.
 - I build with the expectation that other engineers will fork and re-use — APIs must be explicit, types must be strict.
 - If you want privacy, offline-first setups, or secure RAG demos, Reynard + the privacy-first ComfyUI forks are my opinionated stack.
