@@ -11,7 +11,9 @@ H҉̷̡͇̮̩͔̀̄͠ͅ⎔̴̡͔̦͇͇̋͌t̷̸̲̟̻̽͂͠ͅh̷̶̖̫͎̆̓̚͜
 
 ⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲
 
-🦊  ＲＥＹＮＡＲＤ
+��  ＲＥＹＮＡＲＤ  ＦＲＡＭＥＷＯＲＫ
+
+Ｔｈｅ  Ａｐｅｘ  Ｐｒｅｄａｔｏｒ  ｏｆ  Ｍｏｄｕｌａｒ  ＳｏｌｉｄＪＳ  Ｄｅｖｅｌｏｐｍｅｎｔ
 
 From dataset editor → multi-modal CMS → modular SolidJS framework.
 
@@ -23,17 +25,99 @@ W̵̢̲̼̍͘̚h҉̷͉̙̿̂y̸̬̓҉ I b̴̰͓̿̄ů̶̖́͠i̴̠̐̍l̵̛̩͉�
 
 W̶͐͛͜h̷̶̖̫͎̆̓̚͜͝a̶̭̐t̵̰̾̕ R̸͎̅ẹ̵̢̀ỹ̸̰̠ǹ̴̜a̴̘̓͜r̶̞̊d̴̖̍ *is*:
 
-  • SolidJS framework + package ecosystem (core, components, themes, ecs-world, i18n, chat, rag, auth, charts, gallery, annotating, captioning, monaco integration, testing tools).
-  • Single authoritative ECS world for agent simulations and MCP server integration where needed.
-  • Security testing harness: FENRIR integration for automated exploit sweeps (web + LLM threat vectors).
+  • SolidJS framework + package ecosystem (40+ specialized packages)
+  • Single authoritative ECS world for agent simulations and MCP server integration
+  • Security testing harness: FENRIR integration for automated exploit sweeps
+  • Production-ready AI/ML integration with caption generation, RAG, and multimodal capabilities
+  • Advanced theming system with OKLCH color space and comprehensive theme management
+  • Built-in internationalization with RTL support and translation management
+  • Enterprise-grade authentication and authorization with Gatekeeper service
+  • Comprehensive file processing and multimodal repository management
+  • Real-time collaboration tools with WebSocket integration
+  • Advanced 3D rendering and game engine capabilities
 
-I҉̬̲̍n̷̮͎̾s̴̖̽̚ẗ̴̝́ă̵͚̇l̶̻̅̅l̸̮͍̊ / b̸̩̑̉o̴̢̬͝o̸͚̔t̶̹̯͊s̶̹̳̿t̴̜̑r̸̹̈́a̶̛͖p̶̝̓:
+�� ＣＯＲＥ ＡＲＣＨＩＴＥＣＴＵＲＥ
+
+┌─ Frontend Ecosystem (40+ Packages) ─┐
+│  • reynard-core: Foundation utilities and reactive primitives
+│  • reynard-components: Production-ready UI component library
+│  • reynard-charts: Advanced data visualization with D3.js integration
+│  • reynard-3d: Three.js-based 3D rendering and game engine
+│  • reynard-games: ECS-based game development framework
+│  • reynard-chat: Real-time messaging and collaboration
+│  • reynard-rag: Retrieval-Augmented Generation system
+│  • reynard-auth: JWT-based authentication with social providers
+│  • reynard-gallery: Advanced media gallery with AI integration
+│  • reynard-annotating: Multi-model AI caption generation
+│  • reynard-caption: Intelligent image captioning system
+│  • reynard-multimodal: Cross-modal data processing
+│  • reynard-i18n: Comprehensive internationalization
+│  • reynard-themes: OKLCH-based theming system
+│  • reynard-monaco: VS Code editor integration
+│  • reynard-testing: Comprehensive testing utilities
+|  • .. and more!
+└─────────────────────────────────────┘
+
+┌─ Backend Services (Python/FastAPI) ─┐
+│  • RAG Service: Vector embeddings + PostgreSQL + pgvector
+│  • Caption Generation: JTP2, JoyCaption, Florence2, WDv3
+│  • File Processing: Multi-format support with metadata extraction
+│  • Authentication: Gatekeeper service with multiple backends
+│  • ECS World: Agent simulation with trait inheritance
+│  • MCP Server: 47 tools for development automation
+│  • Security: FENRIR automated exploit scanning
+└─────────────────────────────────────┘
+
+┌─ Advanced Features ─┐
+│  • ECS World Simulation: Time-accelerated agent ecosystems
+│  • Agent Naming System: Animal spirit-based identity generation
+│  • LoRA Integration: Personality modeling for AI agents
+│  • Semantic Search: Vector-based content discovery
+│  • Batch Processing: Efficient multi-file operations
+│  • Circuit Breakers: Fault tolerance and error handling
+│  • Health Monitoring: Real-time system metrics
+│  • Event System: Comprehensive logging and monitoring
+└─────────────────────┘
+
+🚀 ＩＮＳＴＡＬＬＡＴＩＯＮ ／ ＢＯＯＴＳＴＲＡＰ
 
 ```bash
+# Core framework
 pnpm install reynard-core solid-js
 pnpm install reynard-components reynard-chat reynard-rag reynard-auth
+
+# AI/ML capabilities
+pnpm install reynard-annotating reynard-caption reynard-multimodal
+
+# Advanced features
+pnpm install reynard-3d reynard-games reynard-charts reynard-monaco
+
+# Create new project
 pnpm create reynard-app my-app
 ```
+
+🎭 ＥＸＡＭＰＬＥＳ ＡＮＤ ＴＥＭＰＬＡＴＥＳ
+
+• **Comprehensive Dashboard**: Full-featured admin interface with charts, tables, and real-time updates
+• **Image Caption App**: AI-powered image processing with multi-model caption generation
+• **3D Demo**: Three.js integration with interactive 3D scenes and game mechanics
+• **Auth App**: Complete authentication flow with social providers and JWT
+• **RAG Demo**: Retrieval-Augmented Generation with vector search and embeddings
+• **ECS Agent Tracker**: Real-time agent simulation with trait inheritance and breeding
+• **Algorithm Benchmarks**: Performance testing and optimization tools
+• **I18n Demo**: Internationalization showcase with RTL support
+• **Multi-Theme**: Dynamic theming with OKLCH color space
+• **Error Demo**: Comprehensive error handling and boundary management
+
+🔧 ＤＥＶＥＬＯＰＭＥＮＴ ＴＯＯＬＳ
+
+• **MCP Server**: 47 development tools including linting, formatting, security scanning
+• **Agent Naming**: Animal spirit-based identity system with trait inheritance
+• **ECS World**: Time-accelerated simulation with genetic algorithms
+• **FENRIR Security**: Automated exploit scanning for web and LLM threat vectors
+• **Comprehensive Testing**: Unit, integration, and E2E testing with Playwright
+• **Documentation Generator**: Automated API documentation and guides
+• **Monorepo Management**: Advanced package orchestration and dependency management
 
 ⌘⌘⌘⌘⌘⌘⌘⌘⌘⌘⌘⌘⌘⌘⌘⌘⌘⌘⌘⌘⌘⌘⌘⌘⌘⌘⌘⌘⌘⌘⌘⌘⌘
 
