@@ -1,3 +1,4 @@
+```
 H҉̷̡͇̮̩͔̀̄͠ͅ⎔̴̡͔̦͇͇̋͌t̷̸̲̟̻̽͂͠ͅh̷̶̖̫͎̆̓̚͜͝ȩ̸̢̜̮͋̐͜͠ŗ̵͖̈́̀̎͜͝e̸̷̻̔̏͠⎔̷̧͍̟͇͇̓👋҈̃͏͏̷̛͎̦̱̲ͅ, Į̸̛̳̯̑͗ͅ'̴̟͉̟͋̈́̚͝m̵̞̪̎͜͠ @̷̡̛̮͇̭̳̈́̓⦿̸̡̻̺͈̳̓r̴̡̻̺̀͆͠ą̵͕̤̓̏̚͝k̵̝̀͗͠⦿̵̡̭̯̱̑́̓͝k̶̡̭̯̱̑́̓͝i̶̠̒̈́͆͝1̵̢̲̼̍͘̚9̵͓̰̱̐̈́̌̔͝4̸̗̞̎͜͠
 
 ⌇⌇⌇⌇⌇⌇⌇⌇⌇⌇⌇⌇⌇⌇⌇⌇⌇⌇⌇⌇⌇⌇⌇⌇⌇⌇⌇⌇⌇⌇⌇⌇⌇⌇⌇⌇
@@ -11,7 +12,7 @@ H҉̷̡͇̮̩͔̀̄͠ͅ⎔̴̡͔̦͇͇̋͌t̷̸̲̟̻̽͂͠ͅh̷̶̖̫͎̆̓̚͜
 
 ⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲
 
-��  ＲＥＹＮＡＲＤ  ＦＲＡＭＥＷＯＲＫ
+🦊  ＲＥＹＮＡＲＤ  ＦＲＡＭＥＷＯＲＫ
 
 Ｔｈｅ  Ａｐｅｘ  Ｐｒｅｄａｔｏｒ  ｏｆ  Ｍｏｄｕｌａｒ  ＳｏｌｉｄＪＳ  Ｄｅｖｅｌｏｐｍｅｎｔ
 
@@ -80,6 +81,7 @@ W̶͐͛͜h̷̶̖̫͎̆̓̚͜͝a̶̭̐t̵̰̾̕ R̸͎̅ẹ̵̢̀ỹ̸̰̠ǹ̴̜a�
 └─────────────────────┘
 
 🚀 ＩＮＳＴＡＬＬＡＴＩＯＮ ／ ＢＯＯＴＳＴＲＡＰ
+```
 
 ```bash
 # Core framework
@@ -96,6 +98,7 @@ pnpm install reynard-3d reynard-games reynard-charts reynard-monaco
 pnpm create reynard-app my-app
 ```
 
+```
 🎭 ＥＸＡＭＰＬＥＳ ＡＮＤ ＴＥＭＰＬＡＴＥＳ
 
 • **Comprehensive Dashboard**: Full-featured admin interface with charts, tables, and real-time updates
@@ -183,3 +186,4 @@ I̷̺̋̽n̶̗̾̕v̶̹̯̕e̵̙̽s҉̛̞̳̘̱t̶̪̺͊i̷̺̋̽g̵̰̀a̶̭̐t
 - **ComfyUI Frontend Fork**: [https://github.com/rakki194/ComfyUI_frontend](https://github.com/rakki194/ComfyUI_frontend)
 
 ---
+```
