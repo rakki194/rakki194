@@ -10,13 +10,17 @@ H҉̷̡͇̮̩͔̀̄͠ͅ⎔̴̡͔̦͇͇̋͌t̷̸̲̟̻̽͂͠ͅh̷̶̖̫͎̆̓̚͜
 ⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲
 
 🦊  ＲＥＹＮＡＲＤ
+
 From dataset editor → multi-modal CMS → modular SolidJS framework.
+
 W̵̢̲̼̍͘̚h҉̷͉̙̿̂y̸̬̓҉ I b̴̰͓̿̄ů̶̖́͠i̴̠̐̍l̵̛̩͉̐͝t̶̪̺͊ i̸̖̓t̶̪̺͊:
+
 - YipYap proved the patterns; Reynard rips those patterns out, packages them, and hardens them for reuse.
 - Goal: ship composable, type-safe UI primitives that scale from a toy dashboard to production pipelines.
 - Principles: minimal deps, TypeScript-first, OKLCH color system, strong i18n & accessibility posture.
 
 W̶͐͛͜h̷̶̖̫͎̆̓̚͜͝a̶̭̐t̵̰̾̕ R̸͎̅ẹ̵̢̀ỹ̸̰̠ǹ̴̜a̴̘̓͜r̶̞̊d̴̖̍ *is*:
+
   • SolidJS framework + package ecosystem (core, components, themes, ecs-world, i18n, chat, rag, auth, charts, gallery, annotating, captioning, monaco integration, testing tools).
   • Single authoritative ECS world for agent simulations and MCP server integration where needed.
   • Security testing harness: FENRIR integration for automated exploit sweeps (web + LLM threat vectors).
@@ -42,6 +46,7 @@ pnpm create reynard-app my-app
 - C҉̥u̸̖̓s҉̛̞̳̘̱t̶̪̺͊o̴̪̝̽m̴̬̣̏̕ ｎ̶̗̾̕ｏ̴̪̝̽ｉ̷̺̋̽ｓ҉̛̞̳̘̱ｅ̵̙̽ generators (DCT, scriptable, structured Perlin)
 
 F̵̙̈́ȩ̷̟̽a̶̭̐t̸̪̓ů̶̖́͠r̸̹̈́e̵̙̽ ＨＩ̶̠̐̍Ｇ̵̰̀Ｈ̷̶̖̫͎̆̓̚͜͝Ｌ̵̛̩͉̐͝Ｉ̷̺̋̽Ｇ̵̰̀Ｈ̷̶̖̫͎̆̓̚͜͝Ｔ̴̪̺͊Ｓ̷̮̽:
+
 - ★ FLUX/DiT/Chroma model support for activation visualization
 - ★ JSON sigma schedule import/export workflows
 - ★ Transform utilities: power, clamp, quantize, reverse, slice
@@ -49,14 +54,17 @@ F̵̙̈́ȩ̷̟̽a̶̭̐t̸̪̓ů̶̖́͠r̸̹̈́e̵̙̽ ＨＩ̶̠̐̍Ｇ̵̰�
 🎭 C҉̥o̴̪̝̽m̴̬̣̏̕f̴̢̀͒y̸̬̓҉ f̴̢̀͒o̴̪̝̽r̸̹̈́k̵̝̀͗͠s҉̛̞̳̘̱ — p̷̛͙̿́r̸̹̈́i̷̺̋̽v̶̹̯̕a̶̭̐c̶̢̟̏y̸̬̓҉ Ｆ̴̢̀͒Ｉ̷̺̋̽Ｒ̸̹̈́Ｓ̷̮̽Ｔ̴̪̺͊, p̷̛͙̿́r̸̹̈́a̶̭̐g̵̰̀m̴̬̣̏̕a̶̭̐t̶̪̺͊i̷̺̋̽c̶̢̟̏ e̵̙̽d̴̖̍i̷̺̋̽t̶̪̺͊s҉̛̞̳̘̱
 
 M̶̲̓̔͠y̸̬̓҉ i̸̖̓n̶̗̾̕t̶̪̺͊e̵̙̽n̶̗̾̕t̶̪̺͊:
+
 - Keep the UX & node model intact, remove external tracking, remove lock-in.
 
 W̶͐͛͜h̷̶̖̫͎̆̓̚͜͝a̶̭̐t̵̰̾̕ I҉̬̲̍ c̶̢̟̏h̷̶̖̫͎̆̓̚͜͝a̶̭̐n̶̗̾̕g̵̰̀e̵̙̽d̴̖̍:
+
 - Telemetry removed (no remote usage pings, no datadog/analytics hooks)
 - Paid API code paths removed or stubbed (no forced cloud billing flows)  
 - User-account/login bits removed or made opt-in; default: local / offline mode
 
 W̶͐͛͜h̷̶̖̫͎̆̓̚͜͝y̸̬̓҉ t̶̪̺͊h̷̶̖̫͎̆̓̚͜͝i̷̺̋̽s҉̛̞̳̘̱ m̴̬̣̏̕a̶̭̐t̵̰̾̕t̶̪̺͊e̵̙̽r̸̹̈́s҉̛̞̳̘̱:
+
 - Reproducible offline runs, honest offline research, smaller attack surface, simpler setup for hobbyists & labs.
 
 ⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲
