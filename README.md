@@ -37,7 +37,7 @@ W̶͐͛͜h̷̶̖̫͎̆̓̚͜͝a̶̭̐t̵̰̾̕ R̸͎̅ẹ̵̢̀ỹ̸̰̠ǹ̴̜a�
   • Real-time collaboration tools with WebSocket integration
   • Advanced 3D rendering and game engine capabilities
 
-�� ＣＯＲＥ ＡＲＣＨＩＴＥＣＴＵＲＥ
+🏗️ ＣＯＲＥ ＡＲＣＨＩＴＥＣＴＵＲＥ
 
 ┌─ Frontend Ecosystem (40+ Packages) ─┐
 │  • reynard-core: Foundation utilities and reactive primitives
