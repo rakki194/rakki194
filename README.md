@@ -89,11 +89,3 @@ I̷̺̋̽n̶̗̾̕v̶̹̯̕e̵̙̽s҉̛̞̳̘̱t̶̪̺͊i̷̺̋̽g̵̰̀a̶̭̐t
 - **ComfyUI Frontend Fork**: [https://github.com/rakki194/ComfyUI_frontend](https://github.com/rakki194/ComfyUI_frontend)
 
 ---
-
-— e̵̙̽n̶̗̾̕d̴̖̍ o̴̪̝̽f̴̢̀͒ p̷̛͙̿́r̸̹̈́o̴̪̝̽f̴̢̀͒i̷̺̋̽l̵̛̩͉̐͝e̵̙̽ b̴̰͓̿̄l̵̛̩͉̐͝o̴̪̝̽c̶̢̟̏k̵̝̀͗͠ — c̶̢̟̏o̴̪̝̽p̷̛͙̿́y̸̬̓҉, p̷̛͙̿́a̶̭̐s҉̛̞̳̘̱t̶̪̺͊e̵̙̽, i̷̺̋̽t̶̪̺͊e̵̙̽r̸̹̈́a̶̭̐t̶̪̺͊e̵̙̽.
-
-## 📊 Ｇ̵̰̀ｉ̷̺̋̽ｔ̶̪̺͊ＨＵＢ̴̰͓̿̄ Ｓ̷̮̽ｔ̶̪̺͊ａ̶̭̐ｔ̶̪̺͊ｓ҉̛̞̳̘̱
-
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=rakki194&show_icons=true&theme=synthwave)](https://github.com/rakki194)
-
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=rakki194&layout=compact&theme=synthwave)](https://github.com/rakki194)
