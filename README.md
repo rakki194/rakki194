@@ -214,6 +214,7 @@ python xavier.py model.safetensors output.safetensors \
     --plot --plot_dir ./analysis/ --debug
 ```
 
+```text
 🎯 ＴＥＣＨＮＩＣＡＬ ＩＮＦＯＲＭＡＴＩＯＮ
 
 • **Mathematical Precision**: Stochastic rounding probability $P(\text{round to } x_H) = \frac{v - x_L}{x_H - x_L}$
@@ -223,7 +224,6 @@ python xavier.py model.safetensors output.safetensors \
 • **Visualization**: Comprehensive plotting for quantization impact analysis
 
 🔗 Q̶̟̈́̽ů̶̖́͠i̷̺̋̽c̶̢̟̏k̵̝̀͗͠ l̵̛̩͉̐͝i̷̺̋̽n̶̗̾̕k̵̝̀͗͠s҉̛̞̳̘̱
-
 ```
 
 - **Reynard Framework**: [https://github.com/rakki194/reynard](https://github.com/rakki194/reynard)
