@@ -41,45 +41,20 @@ W̶͐͛͜h̷̶̖̫͎̆̓̚͜͝a̶̭̐t̵̰̾̕ R̸͎̅ẹ̵̢̀ỹ̸̰̠ǹ̴̜a�
 
 🏗️ ＣＯＲＥ ＡＲＣＨＩＴＥＣＴＵＲＥ
 
-┌─ Frontend Ecosystem (40+ Packages) ─┐
-│  • reynard-core: Foundation utilities and reactive primitives
-│  • reynard-components: Production-ready UI component library
-│  • reynard-charts: Advanced data visualization with D3.js integration
-│  • reynard-3d: Three.js-based 3D rendering and game engine
-│  • reynard-games: ECS-based game development framework
-│  • reynard-chat: Real-time messaging and collaboration
-│  • reynard-rag: Retrieval-Augmented Generation system
-│  • reynard-auth: JWT-based authentication with social providers
-│  • reynard-gallery: Advanced media gallery with AI integration
-│  • reynard-annotating: Multi-model AI caption generation
-│  • reynard-caption: Intelligent image captioning system
-│  • reynard-multimodal: Cross-modal data processing
-│  • reynard-i18n: Comprehensive internationalization
-│  • reynard-themes: OKLCH-based theming system
-│  • reynard-monaco: VS Code editor integration
-│  • reynard-testing: Comprehensive testing utilities
-|  • .. and more!
-└─────────────────────────────────────┘
+┌─ Frontend (40++ Packages) ─┐
+│  • Core utilities & UI primitives (reynard-core, components)
+│  • Data viz, 3D/game, chat, RAG, auth, gallery, AI tools
+│  • Theming, i18n, Monaco editor, testing, and more
+└───────────────────────────┘
 
-┌─ Backend Services (Python/FastAPI) ─┐
-│  • RAG Service: Vector embeddings + PostgreSQL + pgvector
-│  • Caption Generation: JTP2, JoyCaption, Florence2, WDv3
-│  • File Processing: Multi-format support with metadata extraction
-│  • Authentication: Gatekeeper service with multiple backends
-│  • ECS World: Agent simulation with trait inheritance
-│  • MCP Server: 47 tools for development automation
-│  • Security: FENRIR automated exploit scanning
-└─────────────────────────────────────┘
+┌─ Backend (Python/FastAPI) ─┐
+│  • RAG, captioning, file processing, auth, ECS world
+│  • MCP server (dev automation), FENRIR security
+└────────────────────────────┘
 
 ┌─ Advanced Features ─┐
-│  • ECS World Simulation: Time-accelerated agent ecosystems
-│  • Agent Naming System: Animal spirit-based identity generation
-│  • LoRA Integration: Personality modeling for AI agents
-│  • Semantic Search: Vector-based content discovery
-│  • Batch Processing: Efficient multi-file operations
-│  • Circuit Breakers: Fault tolerance and error handling
-│  • Health Monitoring: Real-time system metrics
-│  • Event System: Comprehensive logging and monitoring
+│  • ECS simulation, agent naming, LoRA, semantic search
+│  • Batch ops, circuit breakers, health & event monitoring
 └─────────────────────┘
 
 🚀 ＩＮＳＴＡＬＬＡＴＩＯＮ ／ ＢＯＯＴＳＴＲＡＰ
@@ -116,7 +91,7 @@ pnpm create reynard-app my-app
 
 🔧 ＤＥＶＥＬＯＰＭＥＮＴ ＴＯＯＬＳ
 
-• **MCP Server**: 47 development tools including linting, formatting, security scanning
+• **MCP Server**: 47+ development tools including linting, formatting, security scanning
 • **Agent Naming**: Animal spirit-based identity system with trait inheritance
 • **ECS World**: Time-accelerated simulation with genetic algorithms
 • **FENRIR Security**: Automated exploit scanning for web and LLM threat vectors
@@ -179,11 +154,81 @@ I̷̺̋̽n̶̗̾̕v̶̹̯̕e̵̙̽s҉̛̞̳̘̱t̶̪̺͊i̷̺̋̽g̵̰̀a̶̭̐t
 - ★ Ｓ̷̮̽ＶＤ̴̖̍ ｍ̴̬̣̏̕ａ̶̭̐ｎ̶̗̾̕ｉ̷̺̋̽ｐ̷̛͙̿́ｕ̸̖̓ｌ̵̛̩͉̐͝ａ̶̭̐ｔ̶̪̺͊ｉ̷̺̋̽ｏ̴̪̝̽ｎ̶̗̾̕ ｏ̴̪̝̽ｆ̴̢̀͒ model activation layers for interpretability
 - ★ Ａ̶̭̐ｄ̴̖̍ｖ̵̙̽ｅ̵̙̽ｒ̸̹̈́ｓ҉̛̞̳̘̱ａ̶̭̐ｒ̸̹̈́ｉ̷̺̋̽ａ̶̭̐ｌ̵̛̩͉̐͝ ｒ̸̹̈́ｏ̴̪̝̽ｂ̴̰͓̿̄ｕ̸̖̓ｓ҉̛̞̳̘̱ｔ̶̪̺͊ｎ̶̗̾̕ｅ̵̙̽ｓ҉̛̞̳̘̱ｓ҉̛̞̳̘̱ in sampling workflows
 
+⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲⌲
+
+🧠  X҉̛̞̳̘̱a̶̭̐v̵̙̽i̷̺̋̽e̵̙̽r̸̹̈́  F̴̢̀͒P̷̛͙̿́8̵̢̙̹̃̕  Q̶̟̈́̽ů̶̖́͠a̶̭̐n̶̗̾̕t̶̪̺͊i̷̺̋̽z̸̰̾̕a̶̭̐t̶̪̺͊i̷̺̋̽o̴̪̝̽n̶̗̾̕
+
+ＡＤＶＡＮＣＥＤ ＳＴＯＣＨＡＳＴＩＣ ＲＯＵＮＤＩＮＧ ＦＯＲ ＤＥＥＰ ＬＥＡＲＮＩＮＧ ＭＯＤＥＬＳ
+
+Advanced FP8 quantization toolkit with multiple stochastic rounding algorithms for preserving model fidelity during precision reduction.
+
+W̶͐͛͜h̷̶̖̫͎̆̓̚͜͝a̶̭̐t̵̰̾̕ X҉̛̞̳̘̱a̶̭̐v̵̙̽i̷̺̋̽e̵̙̽r̸̹̈́ *is*:
+
+• **Stochastic Rounding Engine**: Multiple algorithms for probabilistic quantization that preserve model performance better than deterministic rounding
+• **FP8 Format Support**: E4M3FN and E5M2 formats with comprehensive tensor scaling and dequantization
+• **Advanced Rounding Methods**: Default, Complex Neighbor, Shift-and-Perturb, and Owlshift mantissa manipulation
+• **ComfyUI Integration**: Per-tensor scaling compatible with ComfyUI-style scaled FP8 loading
+• **Visualization Tools**: Matplotlib-based comparison plots for quantization analysis
+• **Production Ready**: Comprehensive test suite with 95%+ coverage across all quantization paths
+
+🏗️ ＣＯＲＥ ＱＵＡＮＴＩＺＡＴＩＯＮ ＡＬＧＯＲＩＴＨＭＳ
+
+┌─ Stochastic Rounding Methods ─┐
+│  • Default Stochastic: Probabilistic bracketing with RNE neighbors
+│  • Complex Neighbor: Sophisticated FP8 grid traversal with torch.nextafter
+│  • Shift-and-Perturb: Additive noise simulation before RNE quantization
+│  • Owlshift: Direct mantissa bit manipulation with stochastic floor
+│  • Per-Tensor Scaling: Max-absolute scaling with dequantization factors
+└─────────────────────────────────┘
+
+┌─ FP8 Format Support ─┐
+│  • E4M3FN: 4 exponent, 3 mantissa bits (NaN-preserving)
+│  • E5M2: 5 exponent, 2 mantissa bits (extended range)
+│  • Selective Quantization: Tensor suffix-based filtering
+│  • ComfyUI Compatibility: Scaled FP8 with dequantization scales
+└───────────────────────┘
+
+┌─ Advanced Features ─┐
+│  • Memory Management: Tensor slicing for large model processing
+│  • Debug Mode: Verbose execution tracing and intermediate states
+│  • Plot Generation: Histogram and scatter plot analysis
+│  • Device Support: CUDA, CPU, MPS acceleration
+│  • Comprehensive Testing: 500+ test cases across all algorithms
+└─────────────────────┘
+
+🚀 ＵＳＡＧＥ ＥＸＡＭＰＬＥＳ
+
+```bash
+# Basic FP8 quantization with stochastic rounding
+python xavier.py model_fp32.safetensors model_fp8.safetensors \
+    --fp8_type e4m3 --owlshift --plot
+
+# ComfyUI-compatible scaled quantization
+python xavier.py model.safetensors model_scaled.safetensors \
+    --fp8_type e4m3 --owlscale --owlshift \
+    --keys_to_quantize_suffix .weight
+
+# Advanced analysis with custom parameters
+python xavier.py model.safetensors output.safetensors \
+    --fp8_type e5m2 --complex_rounding \
+    --plot --plot_dir ./analysis/ --debug
+```
+
+🎯 ＴＥＣＨＮＩＣＡＬ ＩＮＦＯＲＭＡＴＩＯＮ
+
+• **Mathematical Precision**: Stochastic rounding probability $P(\text{round to } x_H) = \frac{v - x_L}{x_H - x_L}$
+• **Mantissa Manipulation**: Direct bit-level stochastic rounding for maximum fidelity
+• **Tensor Scaling**: Per-tensor max-absolute scaling with dequantization factor preservation
+• **Memory Optimization**: Intelligent tensor slicing for large model processing
+• **Visualization**: Comprehensive plotting for quantization impact analysis
+
 🔗 Q̶̟̈́̽ů̶̖́͠i̷̺̋̽c̶̢̟̏k̵̝̀͗͠ l̵̛̩͉̐͝i̷̺̋̽n̶̗̾̕k̵̝̀͗͠s҉̛̞̳̘̱
+
 ```
 
 - **Reynard Framework**: [https://github.com/rakki194/reynard](https://github.com/rakki194/reynard)
-- **ComfyUI Wolf Sigmas**: [https://github.com/rakki194/ComfyUI_WolfSigmas](https://github.com/rakki194/ComfyUI_WolfSigmas)
+- **Xavier FP8 Quantization**: [https://github.com/rakki194/xavier](https://github.com/rakki194/xavier)
+- **ComfyUI WolfSigmas**: [https://github.com/rakki194/ComfyUI_WolfSigmas](https://github.com/rakki194/ComfyUI_WolfSigmas)
 - **ComfyUI ImageCompare**: [https://github.com/rakki194/ComfyUI-ImageCompare](https://github.com/rakki194/ComfyUI-ImageCompare)
 - **Privacy-First ComfyUI**: [https://github.com/rakki194/ComfyUI](https://github.com/rakki194/ComfyUI)
 - **ComfyUI Frontend Fork**: [https://github.com/rakki194/ComfyUI_frontend](https://github.com/rakki194/ComfyUI_frontend)
