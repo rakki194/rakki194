@@ -40,6 +40,7 @@ W̶͐͛͜h̷̶̖̫͎̆̓̚͜͝a̶̭̐t̵̰̾̕ R̸͎̅ẹ̵̢̀ỹ̸̰̠ǹ̴̜a�
   • **Real-Time Collaboration** - WebSocket integration with live updates and multi-user support
   • **Advanced 3D & Game Engine** - Three.js integration with ECS-based game development capabilities
 
+```text
 🏗️ ＣＯＲＥ ＡＲＣＨＩＴＥＣＴＵＲＥ
 
 ┌─ Frontend (100+ Packages) ─┐
@@ -70,6 +71,7 @@ W̶͐͛͜h̷̶̖̫͎̆̓̚͜͝a̶̭̐t̵̰̾̕ R̸͎̅ẹ̵̢̀ỹ̸̰̠ǹ̴̜a�
 │  • Comprehensive file processing for 8+ file types
 │  • Production-ready AI/ML integration with multiple models
 └─────────────────────┘
+```
 
 🚀 ＩＮＳＴＡＬＬＡＴＩＯＮ ／ ＢＯＯＴＳＴＲＡＰ
 
@@ -400,7 +402,7 @@ where:
 **Quantization Process**:
 1. **Scaling**: $T_{\text{scaled}} = \frac{T}{s}$
 2. **Clamping**: $T_{\text{clamped}} = \text{clamp}(T_{\text{scaled}}, \text{FP8}_{\min}, \text{FP8}_{\max})$
-3. **Stochastic Rounding**: $T_{\text{quantized}} = \text{stochastic\_round}(T_{\text{clamped}})$
+3. **Stochastic Rounding**: $T_{\text{quantized}} = \text{stochastic_round}(T_{\text{clamped}})$
 
 **Mathematical Properties**:
 - **Precision Maximization**: The scale factor ensures optimal utilization of the FP8 dynamic range
@@ -412,16 +414,17 @@ $$T_{\text{dequantized}} = T_{\text{quantized}} \times s$$
 
 **Error Analysis**:
 The quantization error for element $t_{ij}$ is:
-$$\text{error}_{ij} = t_{ij} - \text{stochastic\_round}\left(\frac{t_{ij}}{s}\right) \times s$$
+$$\text{error}_{ij} = t_{ij} - \text{stochastic_round}\left(\frac{t_{ij}}{s}\right) \times s$$
 
 **Expected Error**:
 $$\mathbb{E}[\text{error}_{ij}] = 0 \quad \text{(unbiased quantization)}$$
 
 **Variance**:
-$$\text{Var}[\text{error}_{ij}] = s^2 \times \text{Var}[\text{stochastic\_round}(t_{ij}/s)]$$
+$$\text{Var}[\text{error}_{ij}] = s^2 \times \text{Var}[\text{stochastic_round}(t_{ij}/s)]$$
 
 This ensures that the maximum absolute value in the tensor maps to the upper representable range of the target FP8 format, maximizing precision utilization while maintaining unbiased quantization.
 
+```text
 🏗️ ＣＯＲＥ ＱＵＡＮＴＩＺＡＴＩＯＮ ＡＬＧＯＲＩＴＨＭＳ
 
 ┌─ Stochastic Rounding Methods ─┐
@@ -446,6 +449,7 @@ This ensures that the maximum absolute value in the tensor maps to the upper rep
 │  • Device Support: CUDA, CPU, MPS acceleration
 │  • Comprehensive Testing: 500+ test cases across all algorithms
 └─────────────────────┘
+```
 
 🚀 ＵＳＡＧＥ ＥＸＡＭＰＬＥＳ
 
@@ -507,7 +511,11 @@ python xavier.py model.safetensors output.safetensors \
    * If $v > v_{RNE}$: $x_L = v_{RNE}$, $x_H = \text{nextafter}(v_{RNE}, +\infty)$
    * If $v < v_{RNE}$: $x_H = v_{RNE}$, $x_L = \text{nextafter}(v_{RNE}, -\infty)$
 2. **Stochastic Decision**: $P(x_H) = \frac{v - x_L}{x_H - x_L}$
-3. **Quantization**: $\text{rounded}(v) = \begin{cases} x_H & \text{if } u < P(x_H) \\ x_L & \text{otherwise} \end{cases}$
+3. **Quantization**:
+   $$\text{rounded}(v) = \begin{cases}
+   x_H & \text{if } u < P(x_H) \\
+   x_L & \text{otherwise}
+   \end{cases}$$
 
 **Mathematical Properties**:
 - **Precision**: Uses `torch.nextafter` for exact FP8 grid traversal
