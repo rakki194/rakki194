@@ -387,43 +387,6 @@ Direct stochastic rounding at the mantissa bit level:
 
 Where $M$ is the number of mantissa bits (3 for E4M3FN, 2 for E5M2), $E$ is the number of exponent bits, and $b$ is the exponent bias.
 
-### Per-Tensor Scaling (Owlscale)
-
-**Scale Factor Calculation**:
-For tensor $T \in \mathbb{R}^{n \times m}$ and target FP8 format:
-
-$$s = \frac{\text{FP8}_{\max} - \text{FP8}_{\min\_pos}}{\max(|T|)}$$
-
-where:
-- $\text{FP8}_{\max}$ is the maximum representable value in the target format
-- $\text{FP8}_{\min\_pos}$ is the minimum positive representable value
-- $\max(|T|)$ is the maximum absolute value in the input tensor
-
-**Quantization Process**:
-1. **Scaling**: $T_{\text{scaled}} = \frac{T}{s}$
-2. **Clamping**: $T_{\text{clamped}} = \text{clamp}(T_{\text{scaled}}, \text{FP8}_{\min}, \text{FP8}_{\max})$
-3. **Stochastic Rounding**: $T_{\text{quantized}} = \text{stochastic_round}(T_{\text{clamped}})$
-
-**Mathematical Properties**:
-- **Precision Maximization**: The scale factor ensures optimal utilization of the FP8 dynamic range
-- **Relative Error Bound**: $\frac{|T_{\text{dequantized}} - T|}{|T|} \leq \frac{\epsilon}{2}$ where $\epsilon$ is the FP8 precision
-- **Dynamic Range**: $\text{range}(T_{\text{scaled}}) = [\text{FP8}_{\min\_pos}, \text{FP8}_{\max}]$
-
-**Dequantization**:
-$$T_{\text{dequantized}} = T_{\text{quantized}} \times s$$
-
-**Error Analysis**:
-The quantization error for element $t_{ij}$ is:
-$$\text{error}_{ij} = t_{ij} - \text{stochastic_round}\left(\frac{t_{ij}}{s}\right) \times s$$
-
-**Expected Error**:
-$$\mathbb{E}[\text{error}_{ij}] = 0 \quad \text{(unbiased quantization)}$$
-
-**Variance**:
-$$\text{Var}[\text{error}_{ij}] = s^2 \times \text{Var}[\text{stochastic_round}(t_{ij}/s)]$$
-
-This ensures that the maximum absolute value in the tensor maps to the upper representable range of the target FP8 format, maximizing precision utilization while maintaining unbiased quantization.
-
 ```text
 🏗️ ＣＯＲＥ ＱＵＡＮＴＩＺＡＴＩＯＮ ＡＬＧＯＲＩＴＨＭＳ
 
