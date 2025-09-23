@@ -268,6 +268,7 @@ W̶͐͛͜h̷̶̖̫͎̆̓̚͜͝a̶̭̐t̵̰̾̕ X҉̛̞̳̘̱a̶̭̐v̵̙̽i̷̺�
 └─────────────────────┘
 
 🚀 ＵＳＡＧＥ ＥＸＡＭＰＬＥＳ
+```
 
 ```bash
 # Basic FP8 quantization with stochastic rounding
